@@ -21,3 +21,31 @@ h1{
 h2{
     color: #125189;
 }
+p{
+    text-align: justify;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly; /*adicionar espaço entre o menu*/
+    list-style-type: none;  /*tirando estilo lista*/
+    background-color: white;
+    width: 600px; 
+    margin:auto; 
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
+}
+
+header ul li{
+    margin-right: 20px;
+    padding: 10px;
+    transition: transform 0.7s ease /*TRANSIÇÃO*/
+}
+header ul li:hover{
+    background: lightgray;
+    transform: scale(1.2);
+}
+header a{
+    text-decoration: none;
+    color: #125189;
+}
